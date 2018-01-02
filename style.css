@@ -1,0 +1,33 @@
+
+.root{
+	-fx-background-color: #376660;
+	
+}
+
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-padding: 10px;
+ -fx-border-insets: 10px;
+ -fx-background-insets: 10px;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Regular";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#cce8e4, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-padding: 10px;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+.text-area .content {
+ -fx-background-color: white ;
+ -fx-padding: 10px;
+ -fx-border-insets: 10px;
+ -fx-background-insets: 10px;
+}
